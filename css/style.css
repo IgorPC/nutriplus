@@ -1,0 +1,88 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.paciente {
+    font-size: 15px;
+}
+
+th{
+    font-size: 12px;
+}
+
+@media (min-width: 477px) {
+    .paciente {
+        font-size: 18px;
+    }
+
+    th{
+        font-size: 15px;
+    }
+}
+
+#adicionar-paciente{
+    width: 100%;
+}
+
+.campo-invalido{
+    border: 1px solid red;
+}
+
+.paciente-invalido{
+    background-color: #ff854f;
+    font-weight: bold;
+}
+
+.erro{
+    color: red;
+    list-style: none;
+}
+
+.fadeOut{
+    opacity: 0;
+    transition: 1s;
+}
+
+.invisivel{
+    display: none;
+}
+
+.titulo{
+    font-family: 'Courgette', cursive;
+    font-size: 1.2em;
+    color: #0a962d;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+.nav{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1280px;
+}
+
+.sucesso{
+    color: green;
+    list-style: none;
+}
+
+.texto-modal{
+    text-indent: 1em;
+    text-align: justify;
+}
+
+.modal-body i{
+    color: black;
+    font-size: 2em;
+    transition: color, 0.5s;
+}
+
+.modal-body i:hover{
+    color: #0a962d;
+}
+
+.modal-contato{
+    font-family: 'Courgette', cursive;
+    font-size: 2em;
+}
+
