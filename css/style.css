@@ -3,11 +3,11 @@ body{
 }
 
 .paciente {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 th{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 @media (min-width: 477px) {
